@@ -1,0 +1,37 @@
+.spanCheck{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+}
+.Btn{
+    height: 30px;
+    width: 100px;
+    background-color:blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.Btn:hover{
+    background-color: red;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.myList{
+    list-style: none;
+    margin-left: 10px;
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
